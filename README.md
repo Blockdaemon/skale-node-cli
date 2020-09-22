@@ -2,7 +2,11 @@
 
 The goal of this fork is to make the cli executable by a non-root user (although that user does need `sudo` rights).
 
-Note that the upstream repo uses `develop` as main branch! If you send a PR from this repo, do not include this `README.md` file, I just wrote it to explain the fork, it doesn't belong upstream.
+Note that the upstream repo uses `develop` as main branch! In this fork we use `develop` as a melting pot for all the PRs. If you send a PR from this repo, do not include this `README.md` file, I just wrote it to explain the fork, it doesn't belong upstream.
+
+# Binary
+
+The latest binary (manually) build is in the `binary` branch. This is just temprorary until the changes land in upstream. It's typically not a good idea to store binary artifacts in github!
 
 # Building it
 
